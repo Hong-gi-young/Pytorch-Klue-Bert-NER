@@ -70,7 +70,6 @@ def inferene(model, loader, id2label, device):
                     
                     filtered.append(id2label[token_prediction[i]])
                 all_token_predictions.append(filtered)
-    # print(all_token_predictions)
     return all_token_predictions
 def main(config):
     
